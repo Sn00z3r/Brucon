@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ReflectiveDLL">
+      <UniqueIdentifier>{39494825-c7f9-443c-8e1d-319857eb4b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Malware">
+      <UniqueIdentifier>{5dfcf7e4-0041-4b72-95f5-b7ffc2315621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared">
+      <UniqueIdentifier>{5124c233-4834-4873-99fa-15d25489672a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ReflectiveDLL">
+      <UniqueIdentifier>{11599a7f-4a4e-47a7-8baf-045121727edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Malware">
+      <UniqueIdentifier>{01a9e684-7e13-4272-9fdc-46ca7eae56c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectiveDLL.h">
+      <Filter>Header Files\ReflectiveDLL</Filter>
+    </ClInclude>
+    <ClInclude Include="Malware.h">
+      <Filter>Header Files\Malware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dropper\shared.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectiveDLL.cpp">
+      <Filter>Source Files\ReflectiveDLL</Filter>
+    </ClCompile>
+    <ClCompile Include="Malware.cpp">
+      <Filter>Source Files\Malware</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  Anti-malware.cpp
+c:\users\snoozer\documents\visual studio 2017\projects\brucon_antihooking\brucon_antihooking\anti-malware.h(6): warning C4005: 'NT_SUCCESS': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\um\winternl.h(823): note: see previous definition of 'NT_SUCCESS'
+c:\users\snoozer\documents\visual studio 2017\projects\brucon_antihooking\brucon_antihooking\anti-malware.cpp(16): warning C4838: conversion from 'DWORD64' to 'unsigned char' requires a narrowing conversion
+c:\users\snoozer\documents\visual studio 2017\projects\brucon_antihooking\brucon_antihooking\anti-malware.cpp(16): warning C4244: 'initializing': conversion from 'DWORD64' to 'unsigned char', possible loss of data
+c:\users\snoozer\documents\visual studio 2017\projects\brucon_antihooking\brucon_antihooking\anti-malware.cpp(27): warning C4309: '=': truncation of constant value
+c:\users\snoozer\documents\visual studio 2017\projects\brucon_antihooking\brucon_antihooking\anti-malware.cpp(49): warning C4309: '=': truncation of constant value
+c:\users\snoozer\documents\visual studio 2017\projects\brucon_antihooking\brucon_antihooking\anti-malware.cpp(56): warning C4309: '=': truncation of constant value
+c:\users\snoozer\documents\visual studio 2017\projects\brucon_antihooking\brucon_antihooking\anti-malware.cpp(64): warning C4309: '=': truncation of constant value
+c:\users\snoozer\documents\visual studio 2017\projects\brucon_antihooking\brucon_antihooking\anti-malware.cpp(68): warning C4477: 'printf' : format string '%llx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID'
+c:\users\snoozer\documents\visual studio 2017\projects\brucon_antihooking\brucon_antihooking\anti-malware.cpp(71): warning C4477: 'printf' : format string '%llx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID'
+c:\users\snoozer\documents\visual studio 2017\projects\brucon_antihooking\brucon_antihooking\anti-malware.cpp(72): warning C4477: 'printf' : format string '%llx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID'
+  Generating Code...
+     Creating library C:\Users\Snoozer\documents\visual studio 2017\Projects\BRUCON_antihooking\x64\Debug\Anti-malware.lib and object C:\Users\Snoozer\documents\visual studio 2017\Projects\BRUCON_antihooking\x64\Debug\Anti-malware.exp
+  BRUCON_antihooking.vcxproj -> C:\Users\Snoozer\documents\visual studio 2017\Projects\BRUCON_antihooking\x64\Debug\Anti-malware.dll
+  BRUCON_antihooking.vcxproj -> C:\Users\Snoozer\documents\visual studio 2017\Projects\BRUCON_antihooking\x64\Debug\Anti-malware.pdb (Partial PDB)

@@ -1,0 +1,4 @@
+﻿  Dropper.cpp
+d:\source\repos\brucon_workshop\dropper\dropper.cpp(348): warning C4101: 'pISH': unreferenced local variable
+  Dropper.vcxproj -> D:\Source\Repos\brucon_workshop\x64\Debug\Dropper.exe
+  Dropper.vcxproj -> D:\Source\Repos\brucon_workshop\x64\Debug\Dropper.pdb (Partial PDB)
