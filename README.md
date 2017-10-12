@@ -11,7 +11,8 @@ All projects are build using Multi-threaded (/MT) flag, this makes sure you don'
 
 Second project is an example of anti-hooking, if you want the solution for that you can find it in unhook.h, the code you need to write needs to be in unhook.cpp.
 
-This is the basic form of the injector which only works out-of-the box for Windows 10 1703 build 15063.674, for other builds and windows 10 version you will need to change the memory snippet for LdrpHandleTlsData and RtlInsertInvertedFunctionTable.
+This is the basic form of the injector which only works out-of-the box for Windows 10 version in the VM provided at Brucon, for other builds and windows 10 versions you will need to change the memory snippet for LdrpHandleTlsData and RtlInsertInvertedFunctionTable.
+Also I did not perform any anti-malware evasion and anti-forensics, so you will need to figure that out yourself ;).
 
 For windows 7,8 and 8.1 (and their server variants, which are the same) you will need to do some reverse engineering as you will need to change / patch a couple of things. I can tell you it's possible as I've done it in my demo version :).
 
